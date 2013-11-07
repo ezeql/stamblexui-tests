@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Widget w="800" h="600" >
+
+    <Scroll name="'slist'" 
+         widthPt="100" 
+        h                 = "500"
+        skin:Paint-color  = "0xAAAAAA"
+        skin:Paint-border = "4"
+        vBar-slider-skin:Paint-color="0x002200"
+        hBar-visible = "false"
+    >
+        <Box name="'list'" widthPt="100"  childPadding="5" paddingTop="10" paddingBottom="10"> 
+        </Box>
+    </Scroll>
+</Widget>
